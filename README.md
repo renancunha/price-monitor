@@ -24,3 +24,5 @@ Talk about the Confluent Cloud platform (the easiest to go).
 ### Kafka Streams application
 
 ### Scrapy (producer)
+
+Write about the `KafkaProducerPipeline` which is responsible to produce the scraped items into a kafka topic and how to setup/execute the spider.
