@@ -8,6 +8,9 @@ For this example, we chose to analyze two retailers (walmart.com and bestbuy.com
 
 Our solution will analyze the data on a daily basis because we are feeding the Kafka topic with data that was previously extracted daily, but you can choose the size of the time-window for any value that you want.
 
+Below is an image showing the output from the monitoring tool:
+![Image of Yaktocat](output_example.png)
+
 ## Project structure
 
 ## Requirements
