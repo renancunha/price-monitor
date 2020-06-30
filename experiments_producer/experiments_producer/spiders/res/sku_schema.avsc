@@ -1,0 +1,71 @@
+{
+  "name": "ProductItem",
+  "type": "record",
+  "namespace": "io.confluent.developer.avro",
+  "fields": [
+    {
+      "name": "url",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "platform",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "name",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "brand",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "sku",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "category",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "price_now",
+      "type": ["float", "null"]
+    },
+    {
+      "name": "price_was",
+      "type": ["float", "null"]
+    },
+    {
+      "name": "rating",
+      "type": ["float", "null"]
+    },
+    {
+      "name": "number_of_reviews",
+      "type": ["int", "null"]
+    },
+    {
+      "name": "in_stock",
+      "type": ["int", "null"]
+    },
+    {
+      "name": "condition",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "scrape_date",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "price_pct_discount",
+      "type": ["float", "null"]
+    },
+    {
+      "name": "_type",
+      "type": ["string", "null"]
+    },
+    {
+      "name": "id",
+      "type": ["string", "null"]
+    }
+  ]
+}

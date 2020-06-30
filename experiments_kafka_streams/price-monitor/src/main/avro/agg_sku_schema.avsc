@@ -1,0 +1,11 @@
+{
+  "namespace": "io.confluent.developer.avro",
+  "type": "record",
+  "name": "AggSkuData",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "min", "type": "double"},
+    {"name": "date", "type": "string"},
+    {"name": "url", "type": "string"}
+  ]
+}

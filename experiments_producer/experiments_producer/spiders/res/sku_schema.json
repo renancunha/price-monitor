@@ -1,0 +1,49 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "type": "object",
+    "properties": {
+        "url": {
+            "type": "string"
+        },
+        "scrape_date": {
+            "type": "string"
+        },
+        "sku": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "brand": {
+            "type": ["string", "null"]
+        },
+        "platform": {
+            "type": ["string", "null"]
+        },
+        "condition": {
+            "type": ["string", "null"]
+        },
+        "price_now": {
+            "type": "number"
+        },
+        "price_was": {
+            "type": ["number", "null"]
+        },
+        "price_pct_discount": {
+            "type": ["number", "null"]
+        },
+        "in_stock": {
+            "type": ["integer", "null"]
+        },
+        "category": {
+            "type": ["string", "null"]
+        },
+        "rating": {
+            "type": ["number", "null"]
+        },
+        "number_of_reviews": {
+            "type": ["integer", "null"]
+        }
+    },
+    "required": ["url", "sku", "name", "price_now"]
+}
