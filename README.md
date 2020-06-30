@@ -1,4 +1,4 @@
-# Price Monitor [WIP}
+# Price Monitor [WIP]
 
 ## Overview
 The idea behind this experiment is to implement a scalable Price Monitoring solution using Scrapy, Kafka and Kafka Streams. 
