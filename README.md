@@ -23,6 +23,8 @@ Talk about the Confluent Cloud platform (the easiest to go).
 
 ### Kafka Streams application
 
+Write about the application structure, configurations (window size, topics names, etc), possible aggregations that could be done, etc.
+
 ### Scrapy (producer)
 
 Write about the `KafkaProducerPipeline` which is responsible to produce the scraped items into a kafka topic and how to setup/execute the spider.
