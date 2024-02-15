@@ -1,5 +1,5 @@
 pkg-resources==0.0.0
-scrapy==2.0.1
+scrapy==2.11.1
 confluent-kafka[avro]==0.11.6
 scrapy_jsonschema==0.2.6
 kafka-python==1.4.7       # via kafka-xod
